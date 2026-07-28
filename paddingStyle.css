@@ -1,0 +1,25 @@
+.card{
+    background: gray;
+    width: 300px;
+    margin-top: 50px;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin e pra fora enquanto padding e pra dentro */
+    padding: 20px;
+
+    border: 5px solid black;
+    border-radius: 40px;
+
+}
+
+button{
+    border: 1px solid #cfd9de;
+    border-radius: 20px;
+    background: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
