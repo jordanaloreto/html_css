@@ -1,0 +1,94 @@
+body{
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(lightskyblue, lightpink);
+    color: #ffffff;
+}
+
+#avatar {
+    /* deixa redondo */
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+
+    /* estilizacao */
+    border: 5px solid #efb0c9;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0px 0px 2px black;
+}
+
+#age{
+    background: #efb0c9;
+    padding: 6px 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#date{
+    background: #efb0c9;
+    padding: 6px 12px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#header {
+    /* famoso flex-box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.frase1{
+    margin-bottom: 10px;
+}
+
+.tip1{
+    margin-top: 0;
+}
+
+.gift-image{
+    background-image: url(../birthday/wrapped-gift-6619262.webp) ;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#gift-image-happy:hover{
+    background-image: url(../birthday/happyPooh.gif);
+}
+
+#gift-image-hot:hover{
+    background-image: url(../birthday/hot.gif);
+}
+
+#gift-image-cheers{
+    height: 200px;
+}
+
+#gift-image-cheers:hover{
+    background-image: url(../birthday/cheers.gif);
+}
+
+.footer{
+    width: 400px;
+    margin: 40px auto 20px;
+    font-style: italic;
+}
+
+a{
+    color: inherit;
+}
